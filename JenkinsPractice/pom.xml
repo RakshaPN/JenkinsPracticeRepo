@@ -3,6 +3,7 @@
   <groupId>Jenkins</groupId>
   <artifactId>JenkinsPractice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
    <profiles>
   	<profile> 
   		<id>ST</id>
@@ -91,5 +92,13 @@
     <version>5.0.9</version>
 </dependency>
   
+  <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.38</version>
+</dependency>
+
+
   </dependencies>
 </project>
